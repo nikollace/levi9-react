@@ -1,0 +1,23 @@
+:root {
+  --main-color: #1942f5;
+  --main-color-darker: #0224b5;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+strong {
+  font-weight: bold;
+}

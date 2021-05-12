@@ -1,0 +1,48 @@
+.details {
+  display: flex;
+  max-width: 1084px;
+  padding: 30px;
+  margin: 0 auto 30px;
+}
+.img {
+  max-width: 50%;
+  margin-right: 20px;
+}
+.goback {
+  padding: 0;
+  margin-bottom: 20px;
+  border: none;
+  background-color: transparent;
+}
+.goback:hover {
+  cursor: pointer;
+}
+.title {
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.1;
+  color: #999;
+}
+.price {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  color: #fff;
+  background-color: #000;
+}
+.desc {
+  margin-bottom: 50px;
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+.amount {
+  margin-top: 10px;
+  color: #666;
+}
+.amount-value {
+  font-size: 18px;
+  color: #333;
+}

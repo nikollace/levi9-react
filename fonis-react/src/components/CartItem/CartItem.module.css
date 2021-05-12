@@ -1,0 +1,51 @@
+.item {
+  display: flex;
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+.item + .item {
+  margin-top: 20px;
+}
+.image-wrapper {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  position: relative;
+  background-color: #fff;
+}
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: contain;
+}
+.category a {
+  color: var(--main-color);
+  transition: color 0.2s;
+}
+.category:hover a {
+  color: var(--main-color-darker);
+}
+.title {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #666;
+  transition: color 0.2s;
+}
+.title:hover {
+  color: #333;
+}
+.actions {
+  margin-top: auto;
+  margin-left: 20px;
+}
+.price {
+  margin-bottom: 10px;
+  font-weight: 600;
+  text-align: right;
+  color: #333;
+}

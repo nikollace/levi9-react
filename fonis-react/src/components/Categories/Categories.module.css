@@ -1,0 +1,23 @@
+.optionbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  margin-top: 1px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fafafa;
+}
+.item {
+  padding: 5px 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #333;
+  transition: color 0.2s;
+}
+.item:hover,
+.active .item {
+  color: var(--main-color);
+}
+.separator {
+  color: #666;
+}
