@@ -1,0 +1,43 @@
+.header {
+  background-color: #fafafa;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1084px;
+  padding: 5px 30px;
+  margin: auto;
+}
+.logo {
+  display: flex;
+  align-items: flex-end;
+  font-size: 16px;
+  color: #111;
+}
+.logo img {
+  width: 80px;
+  margin-right: 4px;
+}
+.shop {
+  margin-bottom: 5px;
+}
+.icon {
+  width: 18px;
+  margin-left: 5px;
+}
+.user-actions,
+.route {
+  display: flex;
+  align-items: center;
+}
+.route {
+  padding: 0 20px;
+  border-right: 1px solid #666;
+  color: #000;
+}
+.route:hover,
+.active {
+  text-decoration: underline;
+}
